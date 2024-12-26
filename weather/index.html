@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></style>
+    </style>
+    <script src="script.js" defer></script>
+<body>
+    <div class="card">
+        <div class="search">
+            <input class="search-input" id="search-input" type="text" placeholder="Enter city name"></input>
+            <button class="search-button" id="search-button">S</button>
+        </div>
+    <div class="weather">
+        <h1 class="temp"></h1>
+        <p class="feels"></p>
+        <img class="weather-icon" src="images/sky.png">
+        <h1 class="city"></h1>
+    </div>
+    <div class="info">
+        <div class="col">
+            <div class="pressure-icon">
+                <img src="images/pressure.png">
+            </div>
+            <div>
+            <h3>Pressure</h3>
+            <p class="pressure"></p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="humidity-icon">
+                <img src="images/humidity.png" >
+            </div>
+            <div>
+            <h3>Humidity</h3>
+            <p class="humidity"></p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+</html>
+<!-- https://api.openweathermap.org/data/2.5/weather?q=katowice&appid=eb5c04a7c49798baafd2fdedc94ac046&units=metric -->
